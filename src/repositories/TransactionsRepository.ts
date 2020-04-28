@@ -14,7 +14,7 @@ class TransactionsRepository {
   }
 
   public all(): Transaction[] {
-    // TODO
+    return this.transactions;
   }
 
   public getBalance(): Balance {
@@ -22,7 +22,7 @@ class TransactionsRepository {
   }
 
   public create(): Transaction {
-    // TODO
+    const appointment = new Appointment({ provider, date });
   }
 }
 
